@@ -1,7 +1,5 @@
 # futureTransactions
-Parse an input file and create an output.csv file based on business rules
-
-This is a simple maven based java application.
+This is a simple maven based java application. Parse an input file and create an output.csv file based on business rules.
 
 ## Scope of this application?
 1. The java application parse an input text (.txt) file from futureTransactions/Input_Folder directory.
