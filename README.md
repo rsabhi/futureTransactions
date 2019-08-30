@@ -27,35 +27,7 @@ Windows 64/ Linux / Mac OS
     - This command will run the application and generate output.csv file in futureTransactions/OutputFile_Folder directory
 
 ## How this project is Organised?
-
-$futureTransactions [Project name]
-.
-|── futureTransactions.log [log file]
-├── InputFile_Folder
-│   └── input.txt [This is the input text file going to parse]
-├── pom.xml [contains the project dependencies]
-└── src
-    ├── main
-    │   ├── java
-    │   │   └── com
-    │   │       └── abn
-    │   │           └── futuretransactions
-    │   │               ├── FutureTransactions.java 
-    │   │               └── utils
-    │   │                   ├── ParseStringUtil.java [string util class mainly to concatenate comma and eliminate space during parsing]
-    │   │                   └── SystemFieldPosition.java [Each field positions are mapped here as per the business requirement]
-    │   └── resources
-    │       └── log4j.properties [as the name suggest, this is for log file properties]
-    └── test
-        ├── java
-        │   └── com
-        │       └── abn
-        │           └── junit
-        │               └── test
-        │                   └── TestFutureTransactionsTest.java [Test class]
-        └── resources
-            └── input
-                └── TestInput.txt [Sample input file used for test class]
+![futureTransactions](img_folder/Project_structure.png)
 
 ## Troubleshooting
 Tested on both windows and mac machines and it worked out of the box. So make sure to configure the JDK path correctly to before running the mvn commands.
