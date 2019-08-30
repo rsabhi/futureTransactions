@@ -14,7 +14,6 @@ This is a simple maven based java application.
 
 ### Which Operating systems are supported?
 Windows 64/ Linux / Mac OS
-https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 ## What are the steps to execute the application?
 1. Unzip futureTransactions.zip file.
