@@ -7,22 +7,27 @@ This is a simple maven based java application. Parse an input file and create an
 3. Application activities can be monitored from the generated log file (futureTransactions/futureTransactions.log)
 
 ## What is the minimum requirement to run this application?
-1. JDK1.8 (minimum)
-2. Any command line application (CMD/ power shell/ terminal (for Mac))
+1. JDK1.8 (minimum) and JDK path is set correctly
+2. Install Maven
+3. Any command line application (CMD/ power shell/ terminal (for Mac))
 
 ### Which Operating systems are supported?
 Windows 64/ Linux / Mac OS
 
 ## What are the steps to execute the application?
-1. Unzip futureTransactions.zip file.
+1. Do a git clone of this project by executing the following command:
+   $ git clone https://github.com/rsabhi/futureTransactions.git
+   
 2. $ cd futureTransactions
-2. In command line application / or Terminal run the following commands:
+3. In command line application / or Terminal run the following commands:
 
   a. $ mvn clean install
-    - This command will download the required dependencies and build and run the test cases.
+  
+     - This command will download the required dependencies and build and run the test cases.
 
   b. $ mvn exec:java -Dexec.mainClass="com.abn.futuretransactions.FutureTransactions"
-    - This command will run the application and generate output.csv file in futureTransactions/OutputFile_Folder directory
+  
+     - This command will run the application and generate output.csv file in futureTransactions/OutputFile_Folder directory
 
 ## How this project is Organised?
 ![futureTransactions](img_folder/Project_structure.png)
